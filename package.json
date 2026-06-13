@@ -1,0 +1,21 @@
+{
+  "name": "nba-gm-engine-fullstack",
+  "version": "1.0.0",
+  "description": "NBA GM Engine 2026-27 — backend securise (Express) + pont vers l'API Anthropic (Claude) + lecture CSV.",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
